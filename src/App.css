@@ -72,7 +72,7 @@ header button {
 
 .cross {
   display: none;
-  font-size: 48px;
+  font-size: 36px;
   color: #c94645;
 }
 
@@ -90,6 +90,9 @@ header button {
   z-index: 10;
 }
 
+.u-header__section:first-child  {
+  min-height: 40px;
+}
 
 @media only screen and (max-width: 1000px) {
   .section-first {
